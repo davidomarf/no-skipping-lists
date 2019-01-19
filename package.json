@@ -1,0 +1,27 @@
+{
+  "name": "no-skipping-lists",
+  "version": "0.0.0",
+  "description": "Create Spotify playlists using top songs from last.fm",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidomarf/no-skipping-lists.git"
+  },
+  "author": "David Omar Flores Chávez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidomarf/no-skipping-lists/issues"
+  },
+  "homepage": "https://github.com/davidomarf/no-skipping-lists#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  }
+}
